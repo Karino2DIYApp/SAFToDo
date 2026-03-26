@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Paper sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,20h40l15,15v53h-55z" />
+    <!-- Folded corner -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M70,20v15h15z" />
+    <!-- Lines and checkmarks -->
+    <path
+        android:strokeColor="#6200EE"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,45h35 M40,55h35 M40,65h35" />
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M32,45l3,3 5,-5 M32,55l3,3 5,-5 M32,65l3,3 5,-5" />
+</vector>

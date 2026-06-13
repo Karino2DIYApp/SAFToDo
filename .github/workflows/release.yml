@@ -1,0 +1,11 @@
+name: Build and Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  call-shared-build:
+    uses: Karino2DIYApp/.github/.github/workflows/android-build.yml@main
+    secrets: inherit
